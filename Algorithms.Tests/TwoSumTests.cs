@@ -17,13 +17,43 @@ namespace Algorithms.Tests
             // Arrange
             var nums = new int[] {2, 7, 11, 15};
             var target = 9;
-            var expected = new int[] {0, 1};
+            var expected = (0, 1);
 
             // Act
             var actual = nums.GetIndicesOfTwoNumbers(target);
 
             // Assert
-            Assert.IsTrue(actual.SequenceEqual(expected));
+            Assert.AreEqual(actual, expected);
+        }
+
+        [Test]
+        public void TwoSumTests_SecondTest()
+        {
+            // Arrange
+            var nums = new int[] { 3, 2, 4 };
+            var target = 6;
+            var expected = (1, 2);
+
+            // Act
+            var actual = nums.GetIndicesOfTwoNumbers(target);
+
+            // Assert
+            Assert.AreEqual(actual, expected);
+        }
+
+        [Test]
+        public void TwoSumTests_ThirdTest()
+        {
+            // Arrange
+            var nums = new int[] { 3, 3 };
+            var target = 6;
+            var expected = (0, 1);
+
+            // Act
+            var actual = nums.GetIndicesOfTwoNumbers(target);
+
+            // Assert
+            Assert.AreEqual(actual, expected);
         }
     }
 }
