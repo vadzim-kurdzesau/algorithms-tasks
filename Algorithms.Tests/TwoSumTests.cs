@@ -12,7 +12,7 @@ namespace Algorithms.Tests
     public class TwoSumTests
     {
         [Test]
-        public void TwoSumTests_FirstTest()
+        public void GetIndicesOfTwoNumbers_FirstTest()
         {
             // Arrange
             var nums = new int[] {2, 7, 11, 15};
@@ -27,7 +27,7 @@ namespace Algorithms.Tests
         }
 
         [Test]
-        public void TwoSumTests_SecondTest()
+        public void GetIndicesOfTwoNumbers_SecondTest()
         {
             // Arrange
             var nums = new int[] { 3, 2, 4 };
@@ -42,7 +42,7 @@ namespace Algorithms.Tests
         }
 
         [Test]
-        public void TwoSumTests_ThirdTest()
+        public void GetIndicesOfTwoNumbers_ThirdTest()
         {
             // Arrange
             var nums = new int[] { 3, 3 };

@@ -7,7 +7,7 @@ namespace Algorithms.Tests;
 public class PalindromeNumberTests
 {
     [Test]
-    public void PalindromeNumberTests_NumberIsPalindrome()
+    public void IsPalindrome_NumberIsPalindrome()
     {
         // Arrange
         var number = 121;
@@ -20,7 +20,7 @@ public class PalindromeNumberTests
     }
 
     [Test]
-    public void PalindromeNumberTests_NumberIsNegative_NumberIsNotPalindrome()
+    public void IsPalindrome_NumberIsNegative_NumberIsNotPalindrome()
     {
         // Arrange
         var number = -121;
@@ -33,7 +33,7 @@ public class PalindromeNumberTests
     }
 
     [Test]
-    public void PalindromeNumberTests_NumberIsNotPalindrome()
+    public void IsPalindrome_NumberIsNotPalindrome()
     {
         // Arrange
         var number = 10;

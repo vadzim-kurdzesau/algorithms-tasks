@@ -14,7 +14,7 @@ namespace Algorithms.Tests
         [TestCase("()", ExpectedResult = true)]
         [TestCase("()[]{}", ExpectedResult = true)]
         [TestCase("(]", ExpectedResult = false)]
-        public bool IsValid(string str)
+        public bool IsValid_ReturnsExpectedResult(string str)
         {
             return ParenthesesValidator.IsValid(str);
         }
