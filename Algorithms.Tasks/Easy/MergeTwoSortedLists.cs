@@ -1,19 +1,5 @@
 ﻿namespace Algorithms.Tasks
 {
-    public class ListNode
-    {
-        public int Value { get; set; }
-
-        public ListNode Next { get; set; }
-
-        public ListNode(int value = default, ListNode next = default)
-        {
-            this.Value = value;
-            this.Next = next;
-            
-        }
-    }
-
     public static class MergeTwoSortedLists
     {
         public static ListNode MergeTwoLists(this ListNode list1, ListNode list2)
