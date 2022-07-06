@@ -1,7 +1,7 @@
 ﻿namespace Algorithms.Tasks
 {
     /// <summary>
-    /// Contains array extension methods.
+    /// Contains the array extension methods.
     /// </summary>
     public static class ArrayExtensions
     {
