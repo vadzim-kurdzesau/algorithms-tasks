@@ -1,4 +1,5 @@
 ﻿using Algorithms.Tasks;
+using Algorithms.Tests.Utils;
 using NUnit.Framework;
 
 namespace Algorithms.Tests;
@@ -33,7 +34,7 @@ public class MergeTwoSortedListsTests
         var actual = firstList.MergeTwoLists(secondList);
 
         // Assert
-        Assert.IsTrue(AreEqual(expected, actual));
+        Assert.IsTrue(AssertWrapper.AreEqual(expected, actual));
     }
 
     [Test]
@@ -60,7 +61,7 @@ public class MergeTwoSortedListsTests
         var actual = firstList.MergeTwoLists(secondList);
 
         // Assert
-        Assert.IsTrue(AreEqual(expected, actual));
+        Assert.IsTrue(AssertWrapper.AreEqual(expected, actual));
     }
 
     [Test]
@@ -87,27 +88,6 @@ public class MergeTwoSortedListsTests
         var actual = firstList.MergeTwoLists(secondList);
 
         // Assert
-        Assert.IsTrue(AreEqual(secondList, actual));
-    }
-
-    private static bool AreEqual(ListNode firstList, ListNode secondList)
-    {
-        while (firstList != null && secondList != null)
-        {
-            if (firstList.Value != secondList.Value)
-            {
-                return false;
-            }
-
-            firstList = firstList.Next;
-            secondList = secondList.Next;
-        }
-
-        if (firstList != null || secondList != null)
-        {
-            return false;
-        }
-
-        return true;
+        Assert.IsTrue(AssertWrapper.AreEqual(secondList, actual));
     }
 }
