@@ -2,7 +2,7 @@
 using Algorithms.Tests.Utils;
 using NUnit.Framework;
 
-namespace Algorithms.Tests;
+namespace Algorithms.Tests.Easy;
 
 [TestFixture]
 public class MergeTwoSortedListsTests
