@@ -9,7 +9,7 @@ namespace Algorithms.Tasks
     /// <summary>
     /// Constains the string extension methods.
     /// </summary>
-    public static class StringExtensions
+    public static class StrStr
     {
         /// <summary>
         /// Returns the index of the <paramref name="needle"/> in the <paramref name="haystack"/>.
