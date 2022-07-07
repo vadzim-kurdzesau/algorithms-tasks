@@ -7,7 +7,7 @@ using Algorithms.Tasks;
 using Algorithms.Tests.Utils;
 using NUnit.Framework;
 
-namespace Algorithms.Tests
+namespace Algorithms.Tests.Medium
 {
     [TestFixture]
     public class AddTwoNumbersTests

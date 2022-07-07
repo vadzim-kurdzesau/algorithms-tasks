@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Algorithms.Tasks;
 using NUnit.Framework;
 
-namespace Algorithms.Tests
+namespace Algorithms.Tests.Medium
 {
     [TestFixture]
     public class LongestSubstringTests
